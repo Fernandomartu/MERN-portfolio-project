@@ -1,0 +1,25 @@
+{
+  "name": "mern-portfolio-project",
+  "version": "1.0.0",
+  "description": "To run server, cd into server and run command node index.js\r To run client, cd into client and run command npm start",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-server": "cd backend && npm install",
+    "start-server": "cd backend && node app.js",
+    "install-client": "cd client && npm install",
+    "build-client": "cd client && npm run build",
+    "start-client": "cd client && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fernandomartu/MERN-portfolio-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fernandomartu/MERN-portfolio-project/issues"
+  },
+  "homepage": "https://github.com/Fernandomartu/MERN-portfolio-project#readme"
+}
