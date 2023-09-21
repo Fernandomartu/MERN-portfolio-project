@@ -1,4 +1,3 @@
-import { useResolvedPath } from "react-router-dom";
 import User from "../models/User.js";
 
 /* READ */
