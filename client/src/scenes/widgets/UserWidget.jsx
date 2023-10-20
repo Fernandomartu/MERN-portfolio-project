@@ -12,6 +12,8 @@ import { UseSelector, useSelector } from "react-redux/es/hooks/useSelector";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { SocialIcon } from "react-social-icons/component";
+import "react-social-icons/linkedin";
+import "react-social-icons/twitter";
 
 const UserWidget = ({ userId, picturePath }) => {
   const [user, setUser] = useState(null);
@@ -141,7 +143,7 @@ const UserWidget = ({ userId, picturePath }) => {
             <SocialIcon url="www.linkedin.com" />
             <Box>
               <Typography color={main} fontWeight="500">
-                Linkeding
+                Linkedin
               </Typography>
               <Typography color={medium}>Network Platform</Typography>
             </Box>
