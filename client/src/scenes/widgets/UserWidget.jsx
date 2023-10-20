@@ -11,6 +11,7 @@ import WidgetWrapper from "components/WidgetWrapper";
 import { UseSelector, useSelector } from "react-redux/es/hooks/useSelector";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { SocialIcon } from "react-social-icons/component";
 
 const UserWidget = ({ userId, picturePath }) => {
   const [user, setUser] = useState(null);
@@ -124,7 +125,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
         <FlexBetween gap="1rem" mb="0.5rem">
           <FlexBetween gap="1rem">
-            <img src="./assets.twitter.png" alt="twitter" />
+            <SocialIcon url="https://twitter.com" />
             <Box>
               <Typography color={main} fontWeight="500">
                 Twitter
@@ -137,7 +138,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
         <FlexBetween gap="1rem">
           <FlexBetween gap="1rem">
-            <img src="./assets.linkedin.png" alt="linkedin" />
+            <SocialIcon url="https://linkedin.com" />
             <Box>
               <Typography color={main} fontWeight="500">
                 Linkeding
