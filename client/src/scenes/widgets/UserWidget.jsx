@@ -125,7 +125,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
         <FlexBetween gap="1rem" mb="0.5rem">
           <FlexBetween gap="1rem">
-            <SocialIcon url="https://twitter.com" />
+            <SocialIcon url="www.twitter.com" />
             <Box>
               <Typography color={main} fontWeight="500">
                 Twitter
@@ -138,7 +138,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
         <FlexBetween gap="1rem">
           <FlexBetween gap="1rem">
-            <SocialIcon url="https://linkedin.com" />
+            <SocialIcon url="www.linkedin.com" />
             <Box>
               <Typography color={main} fontWeight="500">
                 Linkeding
